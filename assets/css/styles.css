@@ -1,28 +1,66 @@
 
 /* css */
-* { box-sizing: border-box; }
+* { box-sizing: border-box;
+  font-family: "Myriad Pro", Times, serif;
+}
 
 .grid1 {
   display: grid;
-  width: 1000px;
-  grid-template-rows: repeat(2, 200px);
-  grid-row-gap: 10px;
-  grid-column-gap: 15px;
+  width: 1500px;
+  grid-template-rows: repeat(2, 110px);
   margin: auto;
-  padding-bottom: 100px;
+  padding-bottom: 50px;
+  text-align: center;
+}
+
+.grid3 {
+  display: grid;
+  width: 1500px;
+  margin: auto;
+  padding-bottom: 50px;
+  text-align: center;
 }
 
 .grid2 {
   display: grid;
-  width: 2000px;
-  grid-template-columns: 50% 50%;
+  width: 1000px;
+  grid-template-columns: 300px 700px;
   grid-template-rows: repeat(6, 200px);
+  grid-row-gap: 10px;
+  grid-column-gap: 10px;
   margin: auto;
+  font-size: large;
+  font-weight: bold;
+  align-items: center;
+  font-size: x-large;
 }
 
 .box {
-  background-color: gray;
   color: black;
   border-radius: 5px;
   border: black;
+}
+
+.titleb {
+  color: #39439c;
+  font-weight: bold;
+  font-size: 7em;
+}
+
+.titler {
+  color: #c7111e;
+  font-weight: bold;
+  font-size: 7em;
+}
+
+.subt {
+  color: black;
+  font-size: 15px;
+  font-size: 2.5em;
+}
+
+.text {
+  color: black;
+  font-size: large;
+  font-weight: normal;
 }
