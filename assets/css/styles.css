@@ -1,2 +1,29 @@
 
 /* css */
+.grid1 {
+  display: grid;
+  width: 1000px;
+  grid-template-rows: repeat(2, 200px);
+  grid-row-gap: 10px;
+  grid-column-gap: 15px;
+  margin: auto;
+  padding-bottom: 20px;
+}
+
+.grid2 {
+  display: grid;
+  width: 1000px;
+  grid-template-columns: 25% 75%;
+  grid-template-rows: repeat(6, 200px);
+  grid-row-gap: 10px;
+  grid-column-gap: 15px;
+  margin: auto;
+}
+
+
+.box {
+  background-color: gray;
+  color: black;
+  border-radius: 5px;
+  border: black;
+}
