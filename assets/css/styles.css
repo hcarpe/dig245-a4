@@ -24,7 +24,7 @@
 .grid2 {
   display: grid;
   width: 1000px;
-  grid-template-columns: 300px 700px;
+  grid-template-columns: 305px 695px;
   grid-template-rows: repeat(6, 200px);
   grid-row-gap: 10px;
   grid-column-gap: 10px;
@@ -35,10 +35,8 @@
   font-size: x-large;
 }
 
-.box {
-  color: black;
-  border-radius: 5px;
-  border: black;
+.pic {
+  border: 1px solid black;
 }
 
 .titleb {
@@ -63,4 +61,8 @@
   color: black;
   font-size: large;
   font-weight: normal;
+}
+
+.pre{
+  text-align: center;
 }
